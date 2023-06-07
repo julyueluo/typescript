@@ -17,17 +17,17 @@
 // console.log(Week[5]);
 
 // 字符串枚举
-enum WeekEnd {
-  Monday = 'Monday',
-  Tuesday = 'Tuesday',
-  Wednesday = 'Wednesday',
-  Thursday = 'Thursday',
-  Friday = 'Friday',
-  Saturday = 'Saturday',
-  Sunday = 'Sunday',
-}
-console.log(WeekEnd.Monday);
-console.log(WeekEnd["Monday"]);
+// enum WeekEnd {
+//   Monday = 'Monday',
+//   Tuesday = 'Tuesday',
+//   Wednesday = 'Wednesday',
+//   Thursday = 'Thursday',
+//   Friday = 'Friday',
+//   Saturday = 'Saturday',
+//   Sunday = 'Sunday',
+// }
+// console.log(WeekEnd.Monday);
+// console.log(WeekEnd["Monday"]);
 //单极映射，只能由Key得到值，不能反推
 
 

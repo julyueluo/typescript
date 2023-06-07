@@ -1,16 +1,16 @@
-let data1: Object = new Set<string>()
-let data2: {} = new Set<string>()
-//联合类型 |
-let str: string | number = 'abc'
-console.log('str', str)
-//交叉类型 &
-type Obj1 = { username: string }
-type Obj2 = { age: number }
+// let data1: Object = new Set<string>()
+// let data2: {} = new Set<string>()
+// //联合类型 |
+// let str: string | number = 'abc'
+// console.log('str', str)
+// //交叉类型 &
+// type Obj1 = { username: string }
+// type Obj2 = { age: number }
 
-let obj: { username: string } = { username: 'abc' }
-let obj2: { age: number } = { age: 23 }
+// let obj: { username: string } = { username: 'abc' }
+// let obj2: { age: number } = { age: 23 }
 
-let obj3: Obj1 & Obj2 = { username: 'wg', age: 40 }
+// let obj3: Obj1 & Obj2 = { username: 'wg', age: 40 }
 //只能同类型交叉，如上两个对象类型，不能数值和字符串之类的
 
 //字面量数据类型
